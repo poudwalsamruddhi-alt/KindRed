@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# KindRed 🌱
 
-## Getting Started
+KindRed is a modern NGO-inspired social impact and awareness platform designed to encourage community participation and spread awareness about important social causes through a clean, responsive, and engaging web experience.
 
-First, run the development server:
+Live Demo
 
-```bash
+https://kind-red.vercel.app/
+
+
+
+Features
+
+- Modern NGO-inspired user interface
+- Fully responsive design
+- Volunteer participation section
+- Donation awareness pages
+- Programs and impact showcase
+- Stories and annual report sections
+- Climate, education, healthcare, nutrition, and animal welfare pages
+- Contact page
+- Modular component-based architecture
+- Optimized performance with Next.js
+
+Tech Stack
+
+Frontend
+- Next.js 16
+- React 19
+- Tailwind CSS 4
+
+Deployment
+- Vercel
+
+
+Project Structure
+
+app/
+ ├── animal-welfare/
+ ├── annual-report/
+ ├── climate/
+ ├── components/
+ ├── contact/
+ ├── donate/
+ ├── education/
+ ├── healthcare/
+ ├── impact/
+ ├── nutrition/
+ ├── programs/
+ ├── stories/
+ ├── volunteer/
+ ├── layout.js
+ └── page.js
+
+public/
+
+Installation
+
+Clone the repository:
+
+
+git clone https://github.com/poudwalsamruddhi-alt/KindRed.git
+
+
+Install dependencies:
+
+
+npm install
+
+
+Run the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Open in browser:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+http://localhost:3000
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The project is deployed using Vercel.
 
-## Deploy on Vercel
+Live URL:
+https://kind-red.vercel.app/
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+Future Improvements
+
+- Authentication system
+- Real donation/payment integration
+- Backend integration
+- Admin dashboard
+- Database support
+- Volunteer management system
+
+
+Author
+
+Samruddhi Poudwal
+
+GitHub:
+https://github.com/poudwalsamruddhi-alt
+
+
+## 📜 License
+
+This project is for educational and hackathon purposes.
