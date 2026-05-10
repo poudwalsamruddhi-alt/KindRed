@@ -1,4 +1,4 @@
-# KindRed 🌱
+KindRed
 
 KindRed is a modern NGO-inspired social impact and awareness platform designed to encourage community participation and spread awareness about important social causes through a clean, responsive, and engaging web experience.
 
@@ -31,53 +31,31 @@ Frontend
 Deployment
 - Vercel
 
-
-Project Structure
-
-app/
- ├── animal-welfare/
- ├── annual-report/
- ├── climate/
- ├── components/
- ├── contact/
- ├── donate/
- ├── education/
- ├── healthcare/
- ├── impact/
- ├── nutrition/
- ├── programs/
- ├── stories/
- ├── volunteer/
- ├── layout.js
- └── page.js
-
-public/
-
 Installation
 
 Clone the repository:
 
-
+```bash
 git clone https://github.com/poudwalsamruddhi-alt/KindRed.git
-
+```
 
 Install dependencies:
 
-
+```bash
 npm install
-
+```
 
 Run the development server:
 
+```bash
 npm run dev
-
+```
 
 Open in browser:
 
+```bash
 http://localhost:3000
-
-
----
+```
 
 Deployment
 
@@ -106,6 +84,6 @@ GitHub:
 https://github.com/poudwalsamruddhi-alt
 
 
-## 📜 License
+License
 
 This project is for educational and hackathon purposes.
