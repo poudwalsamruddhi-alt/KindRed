@@ -115,31 +115,6 @@ export default function Footer() {
         </div>
       </footer>
 
-      {showToast && (
-        <div className="fixed bottom-6 left-6 z-[60] max-w-[320px] animate-bounce-short" id="recent-impact-toast">
-          <div className="bg-surface-container-low border border-primary/10 shadow-lg rounded-[24px] p-4 flex items-center gap-4 transition-all hover:scale-105 pointer-events-auto cursor-default">
-            <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
-              <span className="material-symbols-outlined text-primary text-[20px]" style={{ fontVariationSettings: "'FILL' 1" }}>
-                favorite
-              </span>
-            </div>
-            <div className="flex flex-col">
-              <span className="text-[10px] uppercase tracking-wider text-primary font-bold mb-0.5">Recent Impact</span>
-              <p className="text-sm text-on-surface leading-tight font-medium">
-                Sarah just donated ₹50 to <span className="text-primary font-bold">Clean Water</span>
-              </p>
-            </div>
-            <button 
-              onClick={handleCloseToast}
-              className="ml-2 text-on-surface-variant hover:text-error transition-colors" 
-              type="button" 
-              aria-label="Close toast"
-            >
-              <span className="material-symbols-outlined text-[18px]">close</span>
-            </button>
-          </div>
-        </div>
-      )}
-    </>
+          </>
   );
 }
