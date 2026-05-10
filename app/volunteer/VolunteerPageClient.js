@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import VolunteerApplicationForm from "./VolunteerApplicationForm";
 
 export default function VolunteerPageClient() {
@@ -26,10 +27,13 @@ export default function VolunteerPageClient() {
     <>
       <section className="relative h-[530px] min-h-[500px] flex items-center overflow-hidden">
         <div className="absolute inset-0">
-          <img
+          <Image
             alt="Volunteers working together in community service"
             className="object-cover w-full h-full"
             src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?q=80&w=1200&auto=format&fit=crop"
+            fill
+            sizes="100vw"
+            priority
           />
           <div className="absolute inset-0 bg-gradient-to-r from-on-background/80 to-transparent"></div>
         </div>

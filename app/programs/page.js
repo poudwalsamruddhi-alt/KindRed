@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
@@ -26,10 +27,14 @@ return (
       <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
 
         <Link href="/climate" className="border rounded-3xl overflow-hidden p-4 block hover:shadow-lg transition-all">
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?q=80&w=1200&auto=format&fit=crop"
             alt="Climate"
             className="w-full h-64 object-cover rounded-2xl"
+            width={400}
+            height={256}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            loading="lazy"
           />
 
           <h2 className="text-xl md:text-2xl font-semibold mt-4">
@@ -46,10 +51,14 @@ return (
         </Link>
 
         <Link href="/nutrition" className="border rounded-3xl overflow-hidden p-4 block hover:shadow-lg transition-all">
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1488459716781-31db52582fe9?q=80&w=1200&auto=format&fit=crop"
             alt="Nutrition"
             className="w-full h-64 object-cover rounded-2xl"
+            width={400}
+            height={256}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            loading="lazy"
           />
 
           <h2 className="text-2xl font-semibold mt-4">
@@ -66,10 +75,14 @@ return (
         </Link>
 
         <Link href="/education" className="border rounded-3xl overflow-hidden p-4 block hover:shadow-lg transition-all">
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1200&auto=format&fit=crop"
             alt="Education"
             className="w-full h-64 object-cover rounded-2xl"
+            width={400}
+            height={256}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            loading="lazy"
           />
 
           <h2 className="text-2xl font-semibold mt-4">
@@ -86,10 +99,14 @@ return (
         </Link>
 
         <Link href="/animal-welfare" className="border rounded-3xl overflow-hidden p-4 block hover:shadow-lg transition-all">
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1592664858934-40ca080ab56b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Animal Welfare"
             className="w-full h-64 object-cover rounded-2xl"
+            width={400}
+            height={256}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            loading="lazy"
           />
 
           <h2 className="text-2xl font-semibold mt-4">
@@ -106,10 +123,14 @@ return (
         </Link>
 
         <Link href="/health" className="border rounded-3xl overflow-hidden p-4 block hover:shadow-lg transition-all">
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1200&auto=format&fit=crop"
             alt="Health"
             className="w-full h-64 object-cover rounded-2xl"
+            width={400}
+            height={256}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            loading="lazy"
           />
 
           <h2 className="text-2xl font-semibold mt-4">
@@ -126,10 +147,14 @@ return (
         </Link>
 
         <Link href="/social-equity" className="border rounded-3xl overflow-hidden p-4 block hover:shadow-lg transition-all">
-          <img
+          <Image
             src="https://images.unsplash.com/vector-1739203267494-c46af83e43b1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aW1wYWN0JTIwb2YlMjBuZ288ZW58MHx8MHx8fDA%3D"
             alt="Social Equity"
             className="w-full h-64 object-cover rounded-2xl"
+            width={400}
+            height={256}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            loading="lazy"
           />
 
           <h2 className="text-2xl font-semibold mt-4">

@@ -22,11 +22,12 @@ export default function DonatePage() {
             <section className="relative rounded-2xl overflow-hidden shadow-lg border border-outline-variant/20">
               <Image
                 alt="Community volunteers helping people in need"
-                className="w-full h-[300px] md:h-[400px] object-cover"
+                className="w-full h-[350px] sm:h-[400px] md:h-[450px] object-cover"
                 src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 width={1200}
                 height={500}
-                sizes="100vw"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                priority
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
               <div className="absolute inset-0 flex items-center justify-center p-lg md:p-xl">

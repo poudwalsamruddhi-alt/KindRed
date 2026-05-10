@@ -11,7 +11,7 @@ export default function Home() {
 
   const scrollStories = (direction) => {
     if (storiesRef.current) {
-      const scrollAmount = 400;
+      const scrollAmount = 420; // Slightly more than card width + gap
       storiesRef.current.scrollBy({
         left: direction === 'left' ? -scrollAmount : scrollAmount,
         behavior: 'smooth'
@@ -31,6 +31,7 @@ export default function Home() {
               alt="Community volunteers and children in educational setting"
               src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               sizes="100vw"
+              priority
             />
             <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/40 to-transparent"></div>
           </div>
@@ -45,11 +46,11 @@ export default function Home() {
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a className="bg-primary-container text-on-primary-container px-10 py-4 rounded-full font-bold text-lg hover:scale-95 transition-transform shadow-lg inline-flex items-center justify-center" href="/donate">
+                <a className="bg-primary-container text-on-primary-container px-10 py-4 rounded-full font-bold text-lg hover:scale-95 transition-all duration-300 ease-out shadow-lg inline-flex items-center justify-center hover:shadow-xl hover:bg-primary/90 active:scale-90" href="/donate">
                   Donate Now
                 </a>
                 <a
-                  className="border-2 border-outline text-on-surface px-10 py-4 rounded-full font-bold text-lg hover:bg-surface-container-low transition-all inline-flex items-center justify-center"
+                  className="border-2 border-outline text-on-surface px-10 py-4 rounded-full font-bold text-lg hover:bg-surface-container-low transition-all duration-300 ease-out inline-flex items-center justify-center hover:border-primary/50 hover:text-primary active:scale-95"
                   href="/programs"
                 >
                   View Programs
@@ -159,7 +160,7 @@ export default function Home() {
               </div>
             </div>
             <div ref={storiesRef} className="flex gap-6 pb-8 overflow-x-auto scroll-smooth" style={{ scrollBehavior: 'smooth' }}>
-              <div className="story-card bg-surface-container-lowest rounded-[24px] overflow-hidden shadow-sm border border-outline-variant/20 flex-shrink-0 w-[400px]">
+              <div className="story-card bg-surface-container-lowest rounded-[24px] overflow-hidden shadow-sm border border-outline-variant/20 flex-shrink-0 w-[400px] transition-all duration-300 ease-out hover:shadow-lg hover:scale-[1.02] hover:border-primary/30">
                 <Image
                   width={1024}
                   height={256}
